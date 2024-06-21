@@ -1,23 +1,25 @@
 <template>
   <v-app>
+    <SysBar/>
     <v-main>
-      <HelloWorld/>
+      <FixTabs/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import SysBar from '/src/components/SysBar.vue'
+import FixTabs from '/src/components/FixTabs.vue'
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    FixTabs,
+    SysBar,
   },
 
   data: () => ({
     //
   }),
 }
-</script>
+</script> 
