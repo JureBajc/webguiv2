@@ -2,7 +2,9 @@
   <v-app>
     <SysBar/>
     <v-main>
+      <div>
       <FixTabs/>
+    </div>
     </v-main>
   </v-app>
 </template>
