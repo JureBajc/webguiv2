@@ -3,7 +3,7 @@
     <div class="l-flex flex-row justify-end">
         <v-tabs
         v-model="tab"
-        bg-color="indigo-darken-2"
+        bg-color="surface-variant"
         fixed-tabs=""
         align-with-title=""
     >
