@@ -1,14 +1,15 @@
 <template>
-    <container>
-        <div class="l-flex flex-row">
+
+    <div class="l-flex flex-row justify-end">
         <v-tabs
-            v-model="tab"
-            bg-color="indigo-darken-2"
-            fixed-tabs=""
-            >
-            <v-tab text="Device0" value="opt1"></v-tab>
-            <v-tab text="Test2" value="opt2"></v-tab>
-        </v-tabs>
+        v-model="tab"
+        bg-color="indigo-darken-2"
+        fixed-tabs=""
+        align-with-title=""
+    >
+        <v-tab text="Device0" value="opt1"></v-tab>
+        <v-tab text="Test2" value="opt2"></v-tab>
+    </v-tabs>
 
         <v-tabs-window v-model="tab">
             <v-tabs-window-item value="opt1">
@@ -23,14 +24,13 @@
             <v-tabs-window-item value="opt2">
                 <v-card flat>
                     <v-card-text>
-                    <p>Toerija2</p>
+                        <p>Toerija2</p>
                     </v-card-text>
                 </v-card>
             </v-tabs-window-item>
 
         </v-tabs-window>
     </div>
-    </container>
 </template>
 
 <script>
